@@ -1,0 +1,6 @@
+{
+  "name": "Valentina Makeup",
+  "description": "Uma landing page luxuosa e moderna para a marca de maquiagens Valentina Makeup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
