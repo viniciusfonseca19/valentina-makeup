@@ -32,6 +32,10 @@
   transform: scale(1.05);
 }
 
+.product-image.clickable {
+  cursor: zoom-in;
+}
+
 .product-content {
   padding: 1.5rem;
   display: flex;
@@ -79,4 +83,51 @@
 .btn-buy:hover {
   background: var(--color-main-pink);
   transform: scale(1.05);
+}
+
+.image-modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+  padding: 1rem;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-modal-full {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  display: block;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-size: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-modal-close:hover {
+  background: rgba(255, 255, 255, 1);
 }

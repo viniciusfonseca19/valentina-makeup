@@ -31,7 +31,7 @@ export const products: Product[] = [
     name: 'Pó solto Banana - Fenzza',
     description: 'Finalização impecável, sela a maquiagem e reduz a oleosidade.',
     price: 'R$ 9,99',
-    imageUrl: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/po-solto-banana-fenzza.jpeg',
     category: 'rosto'
   },
   {
@@ -57,7 +57,7 @@ export const products: Product[] = [
     name: 'Pó Banana',
     description: 'Pó solto ultrafino, não estoura no flash e proporciona efeito aveludado.',
     price: 'R$ 9,99',
-    imageUrl: 'https://images.unsplash.com/photo-1629824647361-26ddaf526c45?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/po-banana.jpeg',
     category: 'rosto'
   },
   {
@@ -65,7 +65,7 @@ export const products: Product[] = [
     name: 'Pó Playboy á Prova dágua',
     description: 'Resistente à água e ao suor, garantindo maquiagem intacta.',
     price: 'R$ 11,99',
-    imageUrl: 'https://images.unsplash.com/photo-1608248597481-496100c80836?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/pó-playboy-aprova-dagua.png',
     category: 'rosto'
   },
   {
@@ -73,7 +73,7 @@ export const products: Product[] = [
     name: 'Fixador de Maquiagem Vizzela',
     description: 'Bruma fixadora que hidrata e faz a make durar horas.',
     price: 'R$ 19,99',
-    imageUrl: 'https://images.unsplash.com/photo-1631730359575-38e4755d772b?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/fixador-maquiagem-vizzela.png',
     category: 'rosto'
   },
   {
@@ -81,7 +81,7 @@ export const products: Product[] = [
     name: 'Blindagem Poderosa Dapop',
     description: 'Transforma qualquer maquiagem em à prova dágua e alta fixação.',
     price: 'R$ 13,99',
-    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/blindagem-poderosa-dapop.jpeg',
     category: 'rosto'
   },
   {
@@ -89,7 +89,7 @@ export const products: Product[] = [
     name: 'Bruma fixadora Melu Ruby Rose',
     description: 'Fixa, hidrata e ilumina a pele com um cheirinho incrível.',
     price: 'R$ 28,90',
-    imageUrl: 'https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/bruma-fixadora-melu-ruby-rose.png',
     category: 'rosto'
   },
   {
@@ -97,7 +97,7 @@ export const products: Product[] = [
     name: '4 em 1 compacto',
     description: 'Blush, Contorno, Pó Compacto e Iluminador com espelho em um só produto.',
     price: 'R$ 13,99',
-    imageUrl: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/4-em-1-compacto.png',
     category: 'rosto'
   },
   {
@@ -153,7 +153,15 @@ export const products: Product[] = [
     name: 'Lip Gloss',
     description: 'Brilho espelhado e conforto absoluto nos lábios.',
     price: 'R$ 9,99',
-    imageUrl: 'https://images.unsplash.com/photo-1629824647361-26ddaf526c45?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '',
+    category: 'labios'
+  },
+  {
+    id: '35',
+    name: 'Lip Gloss Labial Melancia',
+    description: 'Brilho suculento e hidratação com chaveiro para levar na bolsa.',
+    price: 'R$ 11,99',
+    imageUrl: '/src/assets/img/lip-gloss-labial-melancia.png',
     category: 'labios'
   },
   {
@@ -161,7 +169,7 @@ export const products: Product[] = [
     name: 'Lip Gloss Ruby Rose',
     description: 'Cores vibrantes, brilho intenso e fórmula não pegajosa.',
     price: 'R$ 11,99',
-    imageUrl: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '',
     category: 'labios'
   },
   {
@@ -169,7 +177,7 @@ export const products: Product[] = [
     name: 'Kit Pincéis',
     description: 'Conjunto completo de pincéis com cerdas super macias.',
     price: 'R$ 13,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/kit-pinceis.jpeg',
     category: 'presentes'
   },
   {
@@ -193,7 +201,7 @@ export const products: Product[] = [
     name: 'Esponja para aplicar base',
     description: 'Formato chanfrado e textura premium, não absorve produto.',
     price: 'R$ 3,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/esponja-para-aplicar-base.png',
     category: 'presentes'
   },
   {
@@ -211,5 +219,77 @@ export const products: Product[] = [
     price: 'R$ 45,90',
     imageUrl: '',
     category: 'rosto'
+  },
+  {
+    id: '26',
+    name: 'Água Micelar Melu',
+    description: 'Limpeza profunda e suave, remove maquiagem e impurezas.',
+    price: 'R$ 12,99',
+    imageUrl: '/src/assets/img/água-micelar-melu.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '27',
+    name: 'Fixador de Maquiagem PHALLBEAUTY',
+    description: 'Fixação profissional que mantém sua maquiagem intacta o dia todo.',
+    price: 'R$ 17,99',
+    imageUrl: '/src/assets/img/fixador-maquiagem-phallbeauty.png',
+    category: 'rosto'
+  },
+  {
+    id: '28',
+    name: 'Sérum Facial Melu',
+    description: 'Hidratação intensiva com ativos que renovam a pele.',
+    price: 'R$ 12,99',
+    imageUrl: '/src/assets/img/serum-facial-melu.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '29',
+    name: 'Skincare',
+    description: 'Cuidado completo da pele com fórmula potente.',
+    price: 'R$ 9,99',
+    imageUrl: '/src/assets/img/skincare.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '30',
+    name: 'Pincel para Pó e Blush',
+    description: 'Cerdas macias e retentivas para aplicação precisa.',
+    price: 'R$ 11,99',
+    imageUrl: '',
+    category: 'presentes'
+  },
+  {
+    id: '31',
+    name: 'Pó compacto',
+    description: 'Acabamento perfeito e longa duração, sem criar linhas.',
+    price: 'R$ 9,00',
+    imageUrl: '',
+    category: 'rosto'
+  },
+  {
+    id: '32',
+    name: 'Esponja para pó',
+    description: 'Aplicação suave e uniforme do pó compacto.',
+    price: 'R$ 2,99',
+    imageUrl: '',
+    category: 'rosto'
+  },
+  {
+    id: '33',
+    name: 'Base Mia Make',
+    description: 'Cobertura média a alta com acabamento natural e duradouro.',
+    price: 'R$ 14,99',
+    imageUrl: '',
+    category: 'rosto'
+  },
+  {
+    id: '34',
+    name: 'Kit Banho de Lua',
+    description: 'Kit especial com os produtos essenciais para um banho de lua perfeito.',
+    price: 'R$ 9,99',
+    imageUrl: '',
+    category: 'presentes'
   }
 ];
