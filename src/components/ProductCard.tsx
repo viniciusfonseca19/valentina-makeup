@@ -32,8 +32,9 @@ export function ProductCard({ product, index }: ProductCardProps) {
           <img 
             src={product.imageUrl} 
             alt={product.name} 
-            className="product-image clickable"
+            className={`product-image clickable ${product.imageCrop ? 'image-crop' : ''}`}
             onClick={() => setShowImageModal(true)}
+            style={product.imageRotation ? { transform: `rotate(${product.imageRotation}deg)` } : {}}
           />
         )}
       </div>
@@ -62,6 +63,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
               src={product.imageUrl}
               alt={product.name}
               className="image-modal-full"
+              style={product.imageRotation ? { transform: `rotate(${product.imageRotation}deg)` } : {}}
             />
           </div>
         </div>

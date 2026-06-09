@@ -7,6 +7,8 @@ export interface Product {
   category: 'rosto' | 'labios' | 'olhos' | 'produtos-intimos' | 'presentes';
   customizable?: boolean;
   whatsappMessage?: string;
+  imageRotation?: number;
+  imageCrop?: boolean;
 }
 
 export const products: Product[] = [
@@ -15,7 +17,7 @@ export const products: Product[] = [
     name: 'Adesivo protetor tapa Seios',
     description: 'Confortável e discreto, ideal para usar com roupas decotadas.',
     price: 'R$ 11,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/adesivo-protetor-tapa-seios.jpg',
     category: 'produtos-intimos'
   },
   {
@@ -23,8 +25,9 @@ export const products: Product[] = [
     name: 'Blush da Playboy',
     description: 'Cor radiante e pigmentação na medida certa para um rubor natural.',
     price: 'R$ 13,99',
-    imageUrl: 'https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&w=600&q=80',
-    category: 'rosto'
+    imageUrl: '/src/assets/img/blush-playboy.jpg',
+    category: 'rosto',
+    imageCrop: true
   },
   {
     id: '3',
@@ -41,15 +44,16 @@ export const products: Product[] = [
     // sem preço — opção personalizada que direciona para WhatsApp
     customizable: true,
     whatsappMessage: 'Olá! Gostaria de montar um Mini Buquê de Maquiagem, por favor.',
-    imageUrl: '',
-    category: 'presentes'
+    imageUrl: '/src/assets/img/mini-buque.jpg',
+    category: 'presentes',
+    imageCrop: true
   },
   {
     id: '5',
     name: 'Espelho formato gatinho',
     description: 'Design fofo e super prático para carregar sempre na bolsa.',
     price: 'R$ 11,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/espelho-formato-gatinho.jpg',
     category: 'presentes'
   },
   {
@@ -105,7 +109,7 @@ export const products: Product[] = [
     name: 'Cílios postiços - Make Lolita',
     description: 'Cílios exuberantes para um olhar marcante e poderoso.',
     price: 'R$ 4,99',
-    imageUrl: 'https://images.unsplash.com/photo-1512496115851-a1c8f137e02c?auto=format&fit=crop&w=600&q=80',
+    imageUrl: '/src/assets/img/cilios-posticos.jpg',
     category: 'olhos'
   },
   {
@@ -113,15 +117,16 @@ export const products: Product[] = [
     name: 'Máscara para cílios á prova dágua',
     description: 'Volume e Alongamento perfeito, resistente à água.',
     price: 'R$ 9,99',
-    imageUrl: 'https://images.unsplash.com/photo-1631214500515-e4cae42ffd1b?auto=format&fit=crop&w=600&q=80',
-    category: 'olhos'
+    imageUrl: '/src/assets/img/mascara-para-cilios.jpg',
+    category: 'olhos',
+    imageCrop: true
   },
   {
     id: '14',
     name: 'Lenços Demaquilantes',
     description: 'Pele limpa e hidratada de forma rápida e prática.',
     price: 'R$ 7,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/lencos-demaquilantes.jpg',
     category: 'rosto'
   },
   {
@@ -129,31 +134,34 @@ export const products: Product[] = [
     name: 'Sabonete íntimo feminino 1L',
     description: 'Cuidado e proteção diária, rendimento prolongado.',
     price: 'R$ 9,99',
-    imageUrl: '',
-    category: 'produtos-intimos'
+    imageUrl: '/src/assets/img/sabonete-intimo-feminino-1L.jpg',
+    category: 'produtos-intimos',
+    imageCrop: true
   },
   {
     id: '16',
     name: 'Sabonete íntimo feminino',
     description: 'Proteção suave e fragrância delicada para o seu dia a dia.',
     price: 'R$ 6,00',
-    imageUrl: '',
-    category: 'produtos-intimos'
+    imageUrl: '/src/assets/img/sabonete-feminino-intimo.jpg',
+    category: 'produtos-intimos',
+    imageRotation: 540
   },
   {
     id: '17',
     name: 'Base Ruby Perfect Blend',
     description: 'Cobertura impecável com acabamento natural que se funde com a pele.',
     price: 'R$ 14,99',
-    imageUrl: 'https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&w=600&q=80',
-    category: 'rosto'
+    imageUrl: '/src/assets/img/base-ruby-rose-perfect-blend.jpg',
+    category: 'rosto',
+    imageRotation: 270
   },
   {
     id: '18',
     name: 'Lip Gloss',
-    description: 'Brilho espelhado e conforto absoluto nos lábios.',
+    description: 'Brilho espelhado e conforto absoluto nos lábios (Com chaveiro de brinde).',
     price: 'R$ 9,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/lip-gloss.jpg',
     category: 'labios'
   },
   {
@@ -169,7 +177,7 @@ export const products: Product[] = [
     name: 'Lip Gloss Ruby Rose',
     description: 'Cores vibrantes, brilho intenso e fórmula não pegajosa.',
     price: 'R$ 11,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/lip-gloss-ruby-rose.jpg',
     category: 'labios'
   },
   {
@@ -185,15 +193,16 @@ export const products: Product[] = [
     name: 'Máscara Facial',
     description: 'Revitalização e hidratação profunda em minutos.',
     price: 'R$ 1,00',
-    imageUrl: '',
-    category: 'rosto'
+    imageUrl: '/src/assets/img/mascara-facial.jpg',
+    category: 'rosto',
+    imageRotation: 180
   },
   {
     id: '22',
     name: 'Esponja',
     description: 'Textura macia que expande na água, para um acabamento perfeito.',
     price: 'R$ 3,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/esponja-para-po.jpg',
     category: 'rosto'
   },
   {
@@ -209,16 +218,18 @@ export const products: Product[] = [
     name: 'Kit Esponjas',
     description: 'Esponjas de diferentes tamanhos para todas as áreas do rosto.',
     price: 'R$ 9,99',
-    imageUrl: '',
-    category: 'presentes'
+    imageUrl: '/src/assets/img/kit-esponjas.jpg',
+    category: 'presentes',
+    imageCrop: true
   },
   {
     id: '25',
     name: 'Esfoliante Corporal',
     description: 'Remove células mortas e hidrata a pele profundamente.',
     price: 'R$ 45,90',
-    imageUrl: '',
-    category: 'rosto'
+    imageUrl: '/src/assets/img/esfoliante-corporal.jpg',
+    category: 'rosto',
+    imageCrop: true
   },
   {
     id: '26',
@@ -257,7 +268,7 @@ export const products: Product[] = [
     name: 'Pincel para Pó e Blush',
     description: 'Cerdas macias e retentivas para aplicação precisa.',
     price: 'R$ 11,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/kit-pinceis.jpeg',
     category: 'presentes'
   },
   {
@@ -265,7 +276,7 @@ export const products: Product[] = [
     name: 'Pó compacto',
     description: 'Acabamento perfeito e longa duração, sem criar linhas.',
     price: 'R$ 9,00',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/4-em-1-compacto.png',
     category: 'rosto'
   },
   {
@@ -273,7 +284,7 @@ export const products: Product[] = [
     name: 'Esponja para pó',
     description: 'Aplicação suave e uniforme do pó compacto.',
     price: 'R$ 2,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/esponja-para-po.jpg',
     category: 'rosto'
   },
   {
@@ -281,15 +292,16 @@ export const products: Product[] = [
     name: 'Base Mia Make',
     description: 'Cobertura média a alta com acabamento natural e duradouro.',
     price: 'R$ 14,99',
-    imageUrl: '',
-    category: 'rosto'
+    imageUrl: '/src/assets/img/base-mia-make.jpg',
+    category: 'rosto',
+    imageCrop: true
   },
   {
     id: '34',
     name: 'Kit Banho de Lua',
     description: 'Kit especial com os produtos essenciais para um banho de lua perfeito.',
     price: 'R$ 9,99',
-    imageUrl: '',
+    imageUrl: '/src/assets/img/kit-banho-lua.jpg',
     category: 'presentes'
   }
 ];

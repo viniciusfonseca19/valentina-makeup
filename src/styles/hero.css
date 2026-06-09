@@ -137,6 +137,10 @@
   margin-bottom: 2rem;
 }
 
+.btn-icon {
+  margin-right: 0.5rem;
+}
+
 .hero-features {
   display: flex;
   align-items: center;

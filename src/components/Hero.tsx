@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, MessageCircle } from 'lucide-react';
 import '../styles/hero.css';
 
 export function Hero() {
@@ -68,6 +68,7 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
           >
             <a href="https://wa.me/c/558596953393" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <MessageCircle size={20} className="btn-icon" />
               Acessar Catálogo
             </a>
             <a 
