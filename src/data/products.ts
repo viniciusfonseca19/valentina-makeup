@@ -17,7 +17,7 @@ export const products: Product[] = [
     id: '1',
     name: 'Adesivo protetor tapa Seios',
     description: 'Confortável e discreto, ideal para usar com roupas decotadas.',
-    price: 'R$ 11,99',
+    price: 'R$ 5,99',
     imageUrl: '/img/adesivo-protetor-tapa-seios.jpg',
     category: 'produtos-intimos'
   },
@@ -53,7 +53,7 @@ export const products: Product[] = [
     id: '5',
     name: 'Espelho formato gatinho',
     description: 'Design fofo e super prático para carregar sempre na bolsa.',
-    price: 'R$ 11,99',
+    price: 'R$ 9,99',
     imageUrl: '/img/espelho-formato-gatinho.jpg',
     category: 'presentes'
   },
@@ -93,7 +93,7 @@ export const products: Product[] = [
     id: '10',
     name: 'Bruma fixadora Melu Ruby Rose',
     description: 'Fixa, hidrata e ilumina a pele com um cheirinho incrível.',
-    price: 'R$ 28,90',
+    price: 'R$ 13,99',
     imageUrl: '/img/bruma-fixadora-melu-ruby-rose.png',
     category: 'rosto'
   },
@@ -126,7 +126,7 @@ export const products: Product[] = [
     id: '14',
     name: 'Lenços Demaquilantes',
     description: 'Pele limpa e hidratada de forma rápida e prática.',
-    price: 'R$ 7,99',
+    price: 'R$ 6,99',
     imageUrl: '/img/lencos-demaquilantes.jpg',
     category: 'rosto'
   },
@@ -227,7 +227,7 @@ export const products: Product[] = [
     id: '25',
     name: 'Esfoliante Corporal',
     description: 'Remove células mortas e hidrata a pele profundamente.',
-    price: 'R$ 45,90',
+    price: 'R$ 9,99',
     imageUrl: '/img/esfoliante-corporal.jpg',
     category: 'rosto',
     imageCrop: true
@@ -277,7 +277,7 @@ export const products: Product[] = [
     name: 'Pó compacto',
     description: 'Acabamento perfeito e longa duração, sem criar linhas.',
     price: 'R$ 9,00',
-    imageUrl: '/img/4-em-1-compacto.png',
+    imageUrl: '/img/po-compacto.jpg',
     category: 'rosto'
   },
   {
