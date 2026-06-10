@@ -304,5 +304,13 @@ export const products: Product[] = [
     price: 'R$ 9,99',
     imageUrl: '/img/kit-banho-lua.jpg',
     category: 'presentes'
+  },
+  {
+    id: '36',
+    name: 'Lapis Preto - Luisance',
+    description: 'Lápis preto para delineado preciso e acabamento intenso.',
+    price: 'R$ 3,50',
+    imageUrl: '/img/lapis-preto.jpg',
+    category: 'olhos'
   }
 ];
