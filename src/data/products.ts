@@ -14,6 +14,46 @@
 
 export const products: Product[] = [
   {
+    id: '37',
+    name: 'Gloss Labial Honey - Inspiração Franciny',
+    description: 'Brilho irresistível com efeito mel e hidratação intensa nos lábios.',
+    price: 'R$ 9,99',
+    imageUrl: '/img/gloss-labial-lip-honey-inspiraco-franciny.jpeg',
+    category: 'labios'
+  },
+  {
+    id: '38',
+    name: 'Touca de Cetim',
+    description: 'Protege os cabelos enquanto você dorme, reduzindo o frizz e preservando o penteado.',
+    price: 'R$ 2,99',
+    imageUrl: '/img/touca-cetim.jpeg',
+    category: 'presentes'
+  },
+  {
+    id: '39',
+    name: 'Tiara Nuvem para Maquiagem & Skincare',
+    description: 'Tiara macia e fofa que mantém o cabelo afastado do rosto durante a rotina de beleza.',
+    price: 'R$ 6,99',
+    imageUrl: '/img/tiara-nuvem-para-maquiagem-e-skin-care.jpeg',
+    category: 'presentes'
+  },
+  {
+    id: '40',
+    name: 'Tiara de Maquiagem',
+    description: 'Prática e estilosa, ideal para manter o cabelo preso durante a aplicação da make.',
+    price: 'R$ 9,99',
+    imageUrl: '/img/tiara-maquiagem.jpeg',
+    category: 'presentes'
+  },
+  {
+    id: '41',
+    name: 'Frasco Espuma de Limpeza + Faixa Toalha',
+    description: 'Kit completo para limpeza facial: frasco para espuma e faixa toalha para proteger o cabelo.',
+    price: 'R$ 14,99',
+    imageUrl: '/img/frasco-espuma-limpeza+faixa-toalha.jpeg',
+    category: 'rosto'
+  },
+  {
     id: '1',
     name: 'Adesivo protetor tapa Seios',
     description: 'Confortável e discreto, ideal para usar com roupas decotadas.',
@@ -312,5 +352,5 @@ export const products: Product[] = [
     price: 'R$ 3,50',
     imageUrl: '/img/lapis-preto.jpg',
     category: 'olhos'
-  }
+  },
 ];
