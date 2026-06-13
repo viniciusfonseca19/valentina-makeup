@@ -14,6 +14,46 @@
 
 export const products: Product[] = [
   {
+    id: '42',
+    name: 'Lip Gloss Hello Kit',
+    description: 'Brilho labial intenso e confortável com toque gloss elegante.',
+    price: 'R$ 17,99',
+    imageUrl: '/img/lip-honey-hello-kit.jpeg',
+    category: 'labios'
+  },
+  {
+    id: '43',
+    name: 'Body Splash Arabe Yara',
+    description: 'Body splash com perfume suave e refrescante para o corpo.',
+    price: 'R$ 30,00',
+    imageUrl: '/img/bofy-splash-arabe-yara.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '44',
+    name: 'Kit Perfume + Gloss Bobbi Rara',
+    description: 'Conjunto perfumado com gloss labial e fragrância incrível.',
+    price: 'R$ 35,00',
+    imageUrl: '/img/kit-perfume+gloss-bobbi-rara.jpeg',
+    category: 'presentes'
+  },
+  {
+    id: '45',
+    name: 'Espuma de Limpeza Facial Barbie',
+    description: 'Espuma de limpeza facial delicada e eficiente para a pele.',
+    price: 'R$ 24,99',
+    imageUrl: '/img/espuma-limpeza-facial-barbie.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '46',
+    name: 'Espelho Gatinho de Mesa',
+    description: 'Espelho de mesa charmoso com formato de gatinho para maquiagem.',
+    price: 'R$ 10,00',
+    imageUrl: '/img/espelho-gatinho-mesa.jpeg',
+    category: 'presentes'
+  },
+  {
     id: '37',
     name: 'Gloss Labial Honey - Inspiração Franciny',
     description: 'Brilho irresistível com efeito mel e hidratação intensa nos lábios.',
