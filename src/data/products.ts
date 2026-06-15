@@ -57,7 +57,7 @@ export const products: Product[] = [
     id: '37',
     name: 'Gloss Labial Honey - Inspiração Franciny',
     description: 'Brilho irresistível com efeito mel e hidratação intensa nos lábios.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/gloss-labial-lip-honey-inspiraco-franciny.jpeg',
     category: 'labios'
   },
@@ -81,7 +81,7 @@ export const products: Product[] = [
     id: '40',
     name: 'Tiara de Maquiagem',
     description: 'Prática e estilosa, ideal para manter o cabelo preso durante a aplicação da make.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/tiara-maquiagem.jpeg',
     category: 'presentes'
   },
@@ -114,7 +114,7 @@ export const products: Product[] = [
     id: '3',
     name: 'Pó solto Banana - Fenzza',
     description: 'Finalização impecável, sela a maquiagem e reduz a oleosidade.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/po-solto-banana-fenzza.jpeg',
     category: 'rosto'
   },
@@ -133,7 +133,7 @@ export const products: Product[] = [
     id: '5',
     name: 'Espelho formato gatinho',
     description: 'Design fofo e super prático para carregar sempre na bolsa.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/espelho-formato-gatinho.jpg',
     category: 'presentes'
   },
@@ -141,7 +141,7 @@ export const products: Product[] = [
     id: '6',
     name: 'Pó Banana',
     description: 'Pó solto ultrafino, não estoura no flash e proporciona efeito aveludado.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/po-banana.jpeg',
     category: 'rosto'
   },
@@ -197,7 +197,7 @@ export const products: Product[] = [
     id: '13',
     name: "Máscara para cílios à prova d'água",
     description: 'Volume e Alongamento perfeito, resistente à água.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/mascara-para-cilios.jpg',
     category: 'olhos',
     imageCrop: true
@@ -214,7 +214,7 @@ export const products: Product[] = [
     id: '15',
     name: 'Sabonete íntimo feminino 1L',
     description: 'Cuidado e proteção diária, rendimento prolongado.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/sabonete-intimo-feminino-1L.jpg',
     category: 'produtos-intimos',
     imageCrop: true
@@ -241,7 +241,7 @@ export const products: Product[] = [
     id: '18',
     name: 'Lip Gloss',
     description: 'Brilho espelhado e conforto absoluto nos lábios (Com chaveiro de brinde).',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/lip-gloss.jpg',
     category: 'labios'
   },
@@ -298,7 +298,7 @@ export const products: Product[] = [
     id: '24',
     name: 'Kit Esponjas',
     description: 'Esponjas de diferentes tamanhos para todas as áreas do rosto.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/kit-esponjas.jpg',
     category: 'presentes',
     imageCrop: true
@@ -307,7 +307,7 @@ export const products: Product[] = [
     id: '25',
     name: 'Esfoliante Corporal',
     description: 'Remove células mortas e hidrata a pele profundamente.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/esfoliante-corporal.jpg',
     category: 'rosto',
     imageCrop: true
@@ -340,7 +340,7 @@ export const products: Product[] = [
     id: '29',
     name: 'Skincare',
     description: 'Cuidado completo da pele com fórmula potente.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/skincare.jpeg',
     category: 'rosto'
   },
@@ -381,7 +381,7 @@ export const products: Product[] = [
     id: '34',
     name: 'Kit Banho de Lua',
     description: 'Kit especial com os produtos essenciais para um banho de lua perfeito.',
-    price: 'R$ 9,99',
+    price: 'R$ 10,00',
     imageUrl: '/img/kit-banho-lua.jpg',
     category: 'presentes'
   },
