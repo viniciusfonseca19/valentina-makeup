@@ -14,6 +14,22 @@
 
 export const products: Product[] = [
   {
+    id: '100',
+    name: 'Gel de Limpeza Principia',
+    description: 'Gel de limpeza facial suave que remove impurezas e controla a oleosidade.',
+    price: 'R$ 58,90',
+    imageUrl: '/img/gel-limpeza-principia.jpeg',
+    category: 'rosto'
+  },
+  {
+    id: '101',
+    name: 'Base Mari Maria',
+    description: 'Base de cobertura média com acabamento natural e longa duração.',
+    price: 'R$ 55,00',
+    imageUrl: '/img/base-mari-maria.jpeg',
+    category: 'rosto'
+  },
+  {
     id: '42',
     name: 'Lip Gloss Hello Kit',
     description: 'Brilho labial intenso e confortável com toque gloss elegante.',
